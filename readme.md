@@ -18,7 +18,7 @@ $ yarn add @kysley/js-pipe
 ## Usage
 
 ```js
-import pipe from '@kysley/js-pipe
+import pipe from '@kysley/js-pipe'
 
 const capatalize = txt => txt.toUpperCase()
 const addNum = txt => `${txt}1`
