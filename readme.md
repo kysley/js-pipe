@@ -24,7 +24,7 @@ const capatalize = txt => txt.toUpperCase()
 const addNum = txt => `${txt}1`
 const res = pipe(capatalize, addNum)
 
-console.log(res('Hello World')) //Hello World1
+console.log(res('Hello World')) //HELLO WORLD1
 ```
 
 
