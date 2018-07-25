@@ -1,0 +1,35 @@
+{
+  "name": "@kysley/js-pipe",
+  "version": "1.0.0",
+  "description": "Compose N sequence of operations, giving the output as an input for the next operation.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kysley/js-pipe.git"
+  },
+  "author": {
+    "name": "Evan Kysley",
+    "email": "evan@kysley.com",
+    "url": "kysley.com"
+  },
+  "keywords": [
+    "compose",
+    "function-composition",
+    "pipe",
+    "pipeline",
+    "chaining",
+    "function",
+    "sequence"
+  ],
+  "license": "MIT",
+  "private": false,
+  "engines": {
+    "node": ">=6"
+  },
+  "scripts": {
+    "test": "ava"
+  },
+  "devDependencies": {
+    "ava": "1.0.0-beta.6"
+  }
+}
